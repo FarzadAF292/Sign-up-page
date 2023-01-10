@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +22,7 @@
 .left h1 {
   color: white;
   position: relative;
-  padding-top: 330px;
+  padding-top: 390px;
 }
 
 .click {
@@ -41,7 +43,8 @@
 .right {
   height: 100vh;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 50px;
+  font-family: "Inter", sans-serif;
 }
 
 .right h1 {
@@ -58,6 +61,7 @@
   border: 1px solid #bdbdbd;
   border-radius: 22.3795px;
   margin-top: 70px;
+  font-family: "Inter", sans-serif;
 }
 
 .btn1:hover {
@@ -79,6 +83,7 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Inter", sans-serif;
 }
 
 input {
@@ -98,7 +103,7 @@ input {
   border-radius: 22px;
   margin-top: 29px;
   font-size: 14px;
-  font-weight: 500;
+  font-family: "Inter", sans-serif;
 }
 
 .btn2:hover {
@@ -107,16 +112,20 @@ input {
 
 .account {
   font-size: 14px;
-  color: #333333;
   line-height: 19px;
   font-weight: 500;
-  margin-top: 15px;
+  padding-top: 15px;
+  text-decoration-line: underline;
+  color: #333333;
 }
 
 footer {
   font-size: 10px;
   font-weight: 500;
-  margin-top: 82px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 }
 
 footer a {
